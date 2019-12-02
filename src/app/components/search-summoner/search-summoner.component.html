@@ -1,0 +1,12 @@
+
+ 
+  <form [formGroup]="searchNicknameForm" (ngSubmit)="matchDirect()">
+  
+    <h2>Welcome to WhoGank! Enter your summoners'name and find your weakest ennemy</h2>
+    <input type="text" formControlName="nickname" placeholder="Find your prey ...">
+  
+    <button type="submit" [disabled]="!searchNicknameForm.valid">Envoyer !</button>
+  
+  
+  </form>
+

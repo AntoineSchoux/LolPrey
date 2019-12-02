@@ -1,0 +1,32 @@
+
+
+
+form{
+
+	 display: block;
+	 margin-left: auto;
+	 margin-right: auto;
+	 font-size: 11px;
+	 color:#b3aaaa;
+	 margin-top: 100px;
+	 width: 350px;
+}
+input {
+
+	width: 350px;
+	height: 45px;
+	border:2px solid rgba(255,255,255,.5);
+	font-size:1.75em;
+	padding:.25em .5em .3125em;
+	color:rgba(255,255,255,.5);
+	border-radius:.25em;
+	background:transparent;
+	transition:all .100s;
+
+	
+	&:focus{
+		outline:none;
+		color:rgba(255,255,255,.75);
+		border-color:rgba(255,255,255,.75);
+		}}
+
